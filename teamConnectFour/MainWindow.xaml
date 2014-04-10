@@ -1,0 +1,8 @@
+﻿<Window x:Class="teamConnectFour.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="478" Width="443" ResizeMode="NoResize">
+    <Grid>
+        <Canvas Height="415" Width="400" HorizontalAlignment="Left" Margin="12,12,0,0" Name="gameCanvas" VerticalAlignment="Top" Background="#FFF8F800" MouseLeftButtonDown="drawingCanvas_MouseLeftButtonDown" />
+    </Grid>
+</Window>
